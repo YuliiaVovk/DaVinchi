@@ -1,0 +1,30 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.content-wrapper{
+	background-image: url(../img/bg.jpg) no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+.header{
+	background: #fff;
+	height: 85px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.main-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+div.header-logo {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+
+}
