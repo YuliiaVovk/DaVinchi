@@ -1,30 +1,173 @@
 *, *:before, *:after {
 	box-sizing: border-box;
 }
+@font-face {
+	font-family: 'Dejavu Sans';
+	src: url('../fonts/DejaVuSansCondensed.ttf');
+	src: url('../fonts/DejaVuSansCondensed-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+
+}
 body {
 	margin: 0;
+	background-image: url(../img/bg.jpg);
+	font-family: 'DejaVu Sans Condensed', sans-serif;
+
 }
 .content-wrapper{
-	background-image: url(../img/bg.jpg) no-repeat center;
-	background-size: cover;
-	height: 100%;
+    width: 1300px;
+	margin: 0 auto;
 }
 .header{
 	background: #fff;
-	height: 85px;
+	height: 91px;
 	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.main-header {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	padding-left: 150px;
+	padding-right: 150px;
+	margin-top: 30px;
 }
+.header-address {
+	line-height: 0.65;
+}
+.header-address p {
+	font-size: 16px; 
+	color: #b19182;
+}
+p.address-bold {
+	font-weight: bold;
+	color: #623625;
+}
+
 div.header-logo {
-	display: flex;
+	/*display: flex;*/
 	flex-direction: row;
 	flex-grow: 1;
 
+}
+.header-logo img {
+	position: relative;
+    bottom: 9px;
+}
+.top-menu ul {
+	list-style: none;
+	font-family: 'Blogger Sans Medium', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.top-menu a{
+	text-decoration:none;
+	color: #b19182;
+}
+.top-menu a:hover{
+	color: #623625;
+}
+div .courses-info{
+	display: flex;
+	background-image: url(../img/Story1.jpg);
+    width: 1050px;
+    height: 445px;
+	border: 1px solid #623625;
+	background-size: cover;
+	margin: 0 auto;
+}
+.courses-text {
+	width: 515px;
+	height: 320px;
+	margin: 65px 10px 20px 500px;
+    background: white;
+    opacity: 0.78;
+    border: 1px solid #623625;
+    text-align: center;
+}
+.courses-text h4{
+	font-family: 'DejaVu Sans Condensed', sans-serif;
+	color: #76323f;
+	font-weight:normal;
+	font-size: 20px;
+}
+.courses-text p{
+	font-family: 'DejaVu Sans Condensed', sans-serif;
+	color: #565656;
+	font-weight:normal;
+	font-size: 13px;
+	padding-bottom: 20px;
+}
+.courses-text button {
+	background-color: #76323f;
+	width: 180px;
+	height: 50px;
+	color: #fff;
+}
+.main-message{
+	width: 1050px;
+    height: 445px;
+    flex-direction: row;
+    display: flex;
+    margin: 0 auto;
+}
+.main-message h4{
+	color: #330b00;
+	font-family: 'DejaVu Sans Condensed', sans-serif;
+	font-weight:normal;
+	font-size: 20px;
+}
+.portret-info {
+	background-image: url(../img/Story2-img-left-var.jpg);
+    width: 450px;
+    height: 400px;
+	border: 1px solid #623625;
+	background-size: cover;
+	margin: 35px 35px 25px 0;
+}
+.paintings-ready{
+	background-image: url(../img/Story2-img-right-two.jpg);
+    width: 450px;
+    height: 400px;
+	border: 1px solid #623625;
+	background-size: cover;
+	margin: 35px 0 25px 115px;
+}
+.portret-text{
+	width: 275px;
+	height: 315px;
+	margin:55px 10px 20px 235px;
+    background: white;
+    opacity: 0.78;
+    border: 1px solid #623625;
+    text-align: center;
+}
+.paintings-info-text{
+	width: 285px;
+	height: 315px;
+	margin:55px 0px 20px -60px;
+	background: white;
+    opacity: 0.78;
+    border: 1px solid #623625;
+    text-align: center;
+}
+p{
+	color:#000000;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+.paintings-info-text button {
+	width: 200px;
+	height: 30px;
+	background-color: #76323f;
+	height: 50px;
+	color: #fff;
+	opacity: 1;
+	margin-bottom: 10px;
+}
+.portret-text button {
+	width: 200px;
+	height: 20px;
+	background-color: #76323f;
+	height: 50px;
+	color: #fff;
+	opacity: 1;
+	margin-bottom: 10px;
+	text-transform:uppercase;
 }
