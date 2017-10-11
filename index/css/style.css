@@ -29,7 +29,7 @@ body {
 	margin-top: 30px;
 }
 .header-address {
-	line-height: 0.65;
+	line-height: 0.3;
 }
 .header-address p {
 	font-size: 16px; 
@@ -66,16 +66,16 @@ div.header-logo {
 div .courses-info{
 	display: flex;
 	background-image: url(../img/Story1.jpg);
-    width: 1050px;
-    height: 445px;
+    width: 1300px;
+    height: 535px;
 	border: 1px solid #623625;
 	background-size: cover;
 	margin: 0 auto;
 }
 .courses-text {
-	width: 515px;
+	width: 620px;
 	height: 320px;
-	margin: 65px 10px 20px 500px;
+	margin: 95px 10px 20px 650px;
     background: white;
     opacity: 0.78;
     border: 1px solid #623625;
@@ -91,7 +91,7 @@ div .courses-info{
 	font-family: 'DejaVu Sans Condensed', sans-serif;
 	color: #565656;
 	font-weight:normal;
-	font-size: 13px;
+	font-size: 15px;
 	padding-bottom: 20px;
 }
 .courses-text button {
@@ -101,8 +101,8 @@ div .courses-info{
 	color: #fff;
 }
 .main-message{
-	width: 1050px;
-    height: 445px;
+	width: 1300px;
+    height: 455px;
     flex-direction: row;
     display: flex;
     margin: 0 auto;
@@ -115,33 +115,33 @@ div .courses-info{
 }
 .portret-info {
 	background-image: url(../img/Story2-img-left-var.jpg);
-    width: 450px;
-    height: 400px;
+    width: 505px;
+    height: 450px;
 	border: 1px solid #623625;
 	background-size: cover;
 	margin: 35px 35px 25px 0;
 }
 .paintings-ready{
 	background-image: url(../img/Story2-img-right-two.jpg);
-    width: 450px;
-    height: 400px;
+    width: 505px;
+    height: 450px;
 	border: 1px solid #623625;
 	background-size: cover;
-	margin: 35px 0 25px 115px;
+	margin: 35px 0 25px 315px;
 }
 .portret-text{
-	width: 275px;
-	height: 315px;
-	margin:55px 10px 20px 235px;
+	width: 356px;
+	height: 375px;
+	margin: 55px 10px 20px 308px;
     background: white;
     opacity: 0.78;
     border: 1px solid #623625;
     text-align: center;
 }
 .paintings-info-text{
-	width: 285px;
-	height: 315px;
-	margin:55px 0px 20px -60px;
+	width: 356px;
+	height: 375px;
+	margin:55px 0px 20px -160px;
 	background: white;
     opacity: 0.78;
     border: 1px solid #623625;
@@ -153,21 +153,60 @@ p{
 	padding-bottom: 10px;
 }
 .paintings-info-text button {
-	width: 200px;
-	height: 30px;
+	width: 260px;
+	height: 40px;
 	background-color: #76323f;
 	height: 50px;
 	color: #fff;
-	opacity: 1;
+	opacity: 1.2;
 	margin-bottom: 10px;
 }
+.paintings-info-text p {
+	padding-bottom: 25px;
+}
 .portret-text button {
-	width: 200px;
-	height: 20px;
+	width: 260px;
+	height: 40px;
 	background-color: #76323f;
 	height: 50px;
 	color: #fff;
 	opacity: 1;
 	margin-bottom: 10px;
 	text-transform:uppercase;
+}
+.portret-text a {
+	text-transform: uppercase;
+	background-color: #fff;
+	width: 260px;
+	height: 40px;
+	border: 1px solid #623625;
+	text-decoration:none;
+	color: #76323f;
+	padding: 5px 15px;
+}
+.paintings-info-text a {
+	text-transform: uppercase;
+	background-color: #fff;
+	width: 260px;
+	height: 40px;
+	border: 1px solid #623625;
+	text-decoration:none;
+	color: #76323f;
+	padding: 5px 10px;
+}
+.printing-info {
+	background-image: url(../img/Story3.png);
+    width: 1100px;
+    height: 535px;
+	background-size: cover;
+	margin: 84px 35px 25px 105px;
+}
+.printing-info-text {
+	width: 460px;
+	height: 315px;
+	margin: 55px 10px 20px 308px;
+    background: white;
+    opacity: 0.78;
+    border: 1px solid #623625;
+    text-align: center;
 }
